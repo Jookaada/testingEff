@@ -74,8 +74,6 @@ public class ArrayStack<E> implements Stack<E> {
 		return top == -1;
 	}
 	
-	// :)
-	
 	/**
 	 * Aux function: instead of the current max capacity of the Stack,
 	 * checks how many values are stored in the stack
