@@ -24,4 +24,9 @@ public interface Stack<E> {
 	 * @return The stack is empty (true/false)
 	 */
 	public boolean isEmpty();
+	
+	/**
+	 * Empties the stack
+	 */
+	public void popAll();
 }

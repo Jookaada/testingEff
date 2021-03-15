@@ -86,4 +86,13 @@ public class ArrayStack<E> implements Stack<E> {
 		
 		return i;
 	}
+	
+	/**
+	 * (non-Javadoc)
+	 * @see Stack#popAll()
+	 */
+	public void popAll() {
+		while(!isEmpty())
+			pop();
+	}
 }

@@ -58,4 +58,13 @@ public class LinkedListStack<E> implements Stack<E> {
 	public E peek() {
 		return first.item;
 	}
+	
+	/**
+	 * (non-Javadoc)
+	 * @see Stack#popAll()
+	 */
+	public void popAll() {
+		while(!isEmpty())
+			pop();
+	}
 }
