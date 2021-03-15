@@ -2,7 +2,7 @@
  * Implementation of the stack ADT using a growing array.
  * Implementation originally created by João Pedro Guerreiro Neto.
  * @author Nuno Dias
- *
+ * :|
  * @param <E> Type of the stack
  */
 public class ArrayStack<E> implements Stack<E> {
